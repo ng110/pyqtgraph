@@ -35,8 +35,11 @@ for gs in ['raster', 'native', 'opengl']:
 
 ## Enable fault handling to give more helpful error messages on crash. 
 ## Only available in python 3.3+
-try:
-    import faulthandler
-    faulthandler.enable()
-except ImportError:
-    pass
+
+
+# edited out (NG)
+#try:
+#    import faulthandler
+#    faulthandler.enable()
+#except ImportError:
+#    pass
